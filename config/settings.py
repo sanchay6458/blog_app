@@ -130,6 +130,7 @@ STATICFILES_DIRS = [str(BASE_DIR.joinpath('static'))]
 STATIC_ROOT = str(BASE_DIR.joinpath('staticfiles'))
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage' # new
 
+MEDIA_URL = '/media/'
 MEDIA_TOOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
